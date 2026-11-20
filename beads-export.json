@@ -1,0 +1,80 @@
+[
+ {
+  "id": "wirebot-p2rsy",
+  "title": "voice: build discord-voice adapter per spec 27 (slice 1)",
+  "description": "Implement discord-voice adapter against docs/27 interface. Relay block moves from stash to wirebot-voice-relay entry with its own schema. Qualify offline; cutover in quiet window, never during active voice. No GW restart.",
+  "status": "open",
+  "priority": 2,
+  "issue_type": "task",
+  "created_at": "2026-11-20T06:15:40.697838432Z",
+  "created_by": "wirebot",
+  "updated_at": "2026-11-20T06:16:21.351385593Z",
+  "source_repo": "wirebot-core",
+  "source_repo_path": "/home/wirebot/wirebot-core",
+  "compaction_level": 0,
+  "original_size": 0,
+  "comments": [
+   {
+    "id": 307,
+    "issue_id": "wirebot-p2rsy",
+    "author": "wirebot",
+    "text": "Spec 27 rev2: adapter is now generic slot voice-chat bound to Discord voice (correction-map rule). Build the slot, qualify the binding.",
+    "created_at": "2026-11-20T06:16:21Z"
+   }
+  ]
+ },
+ {
+  "id": "wirebot-n3gz7",
+  "title": "voice: extend meet/zoom plugins to full duplex per spec 27",
+  "description": "google-meet + zoom-meetings transcribe today. Extend through their plugin surfaces to two-way talk behind the relay interface. No forks.",
+  "status": "open",
+  "priority": 2,
+  "issue_type": "task",
+  "created_at": "2026-11-20T06:15:40.985573712Z",
+  "created_by": "wirebot",
+  "updated_at": "2026-11-20T06:15:40.985573712Z",
+  "source_repo": "wirebot-core",
+  "source_repo_path": "/home/wirebot/wirebot-core",
+  "compaction_level": 0,
+  "original_size": 0
+ },
+ {
+  "id": "wirebot-hnytn",
+  "title": "voice: twilio-phone adapter placeholder per spec 27",
+  "description": "Adapter reports planned until operator supplies Twilio account + 800 number keys. Same interface; config schema reserved. Blocked on credentials, not code.",
+  "status": "open",
+  "priority": 2,
+  "issue_type": "task",
+  "created_at": "2026-11-20T06:15:41.142833120Z",
+  "created_by": "wirebot",
+  "updated_at": "2026-11-20T06:16:21.556715590Z",
+  "source_repo": "wirebot-core",
+  "source_repo_path": "/home/wirebot/wirebot-core",
+  "compaction_level": 0,
+  "original_size": 0,
+  "comments": [
+   {
+    "id": 308,
+    "issue_id": "wirebot-hnytn",
+    "author": "wirebot",
+    "text": "Spec 27 rev2: phone is generic slot phone-call, binding plugin:telephony planned. Same interface; no provider name in generic domain.",
+    "created_at": "2026-11-20T06:16:21Z"
+   }
+  ]
+ },
+ {
+  "id": "wirebot-m7vhx",
+  "title": "voice-relay: module 0.1.0 scaffold live; build voice-chat adapter",
+  "description": "Canonical home: this repo (SPEC.md). Slices tracked in wirebot-core beads until adapter code lands here. Relay block source: OVH stash (wirebot-owned, untouched).",
+  "status": "open",
+  "priority": 2,
+  "issue_type": "task",
+  "created_at": "2026-11-20T06:22:00.538696574Z",
+  "created_by": "wirebot",
+  "updated_at": "2026-11-20T06:22:00.538696574Z",
+  "source_repo": "wirebot-core",
+  "source_repo_path": "/home/wirebot/wirebot-core",
+  "compaction_level": 0,
+  "original_size": 0
+ }
+]
