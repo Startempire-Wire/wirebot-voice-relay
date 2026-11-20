@@ -1,0 +1,27 @@
+{
+  "id": "wirebot-voice-relay",
+  "kind": "extension",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": { "type": "boolean", "default": true },
+      "agentId": { "type": "string" },
+      "adapters": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "voice-chat": { "type": "object" },
+          "meeting-a": { "type": "object" },
+          "meeting-b": { "type": "object" },
+          "phone-call": { "type": "object" }
+        }
+      }
+    },
+    "required": ["agentId"]
+  },
+  "contracts": {
+    "tools": ["wirebot_voice_join", "wirebot_voice_speak", "wirebot_voice_listen", "wirebot_voice_health"]
+  },
+  "activation": { "onStartup": false }
+}

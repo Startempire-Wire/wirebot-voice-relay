@@ -1,0 +1,12 @@
+{
+  "name": "@wirebot/voice-relay",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Wirebot voice relay — one turn, one transcript, every surface",
+  "license": "UNLICENSED",
+  "openclaw": {
+    "extensions": [
+      "./dist/index.mjs"
+    ]
+  }
+}
