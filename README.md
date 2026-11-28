@@ -20,4 +20,4 @@ means adding one adapter — never rewriting the relay.
 
 ### Wirebot prototype crosswalk
 
-[Wirebot prototype runtime BOM](https://github.com/Startempire-Wire/agent-driven-life-business-os/blob/a21e1e9baa9819faa58317cc198f7d8694c8be53/docs/agent-os-golden-path/wirebot-prototype-runtime-bom.md#matrix-by-first-eligible-expression) — Optional voice transport and interface. Presence does not prove configured/use/entitlement. WB-H03.
+[Wirebot prototype runtime BOM](https://github.com/Startempire-Wire/agent-driven-life-business-os/blob/main/docs/agent-os-golden-path/wirebot-prototype-runtime-bom.md#matrix-by-first-eligible-expression) — Optional voice transport and interface. Presence does not prove configured/use/entitlement. WB-H03.
